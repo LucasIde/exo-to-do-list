@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Tasks List</title>
+  <link rel="stylesheet" href="./styles/styles.min.css">
+  <script src="./scripts/main.js" defer></script>
+</head>
+<body>
+  <h1>My<span>Tasks</span>List</h1>
+  <div class="wrapper">
+    <div class="col">
+      <h2>Task<span>Creator</span></h2>
+      <div class="create">
+        <label for="">Nom de la tâche</label>
+        <input type="text" class="task-name">
+        <label for="">Date à laquelle la tâche doit être exécutée</label>
+        <input type="date" class="task-date">
+        <label for="">Description de la tâche</label>
+        <textarea name="" id="" cols="30" rows="10" class="task-desc"></textarea>
+        <button class="task-add">Ajouter</button>
+      </div>
+    </div>
+    <div class="col">
+      <h2>Task<span>List</span></h2>
+      
+      <div class="list done">
+        <h3>Done</h3>
+        <div class="message"></div>
+      </div>
+      <div class="list to-do">
+        <h3>In the tube <button class="tri">trier</button></h3>
+        <!-- <p class="message">No task in the tube</p> -->
+        <div class="message">
+        </div>
+        <!-- <details class="task">
+            <summary>
+                <div class="wrapperSum">
+                    <input type="checkbox">
+                    <div class="txt">
+                        <div class="title">test</div>
+                        <div class="date">03-09-2000</div>
+                    </div>
+                </div>
+            </summary>
+        </details> -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
